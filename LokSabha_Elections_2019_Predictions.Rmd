@@ -1,0 +1,32 @@
+---
+title: "Predictions for Lok Sabha Elections - 2019"
+author: "Naren Srinivasan"
+date: "4 March 2019"
+output: html_document
+---
+
+# Overview
+
+# Methodology
+
+At state level:
+
+* State assembly indicators
+* National sentiment
+* National vote change
+* Train on 2014, and score on 2019
+# Data cleaning and transformation
+
+```{r}
+#install.packages("xlsx")
+#install.packages("rJava")
+library(xlsx)
+library(rJava)
+```
+
+
+# References
+
+## Election results
+
+Consolidated data source - https://eci.gov.in/statistical-report/statistical-reports/#collapseTwo
